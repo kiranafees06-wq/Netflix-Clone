@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), 
+    url(./TOP/netflix\ orig);
+}
+
+.bgmasla {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+header section {
+    margin-top: 40px;
+}
+
+
+header .logosec {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    position: relative;
+    padding-top: 30px;
+}
+
+#logo_container {
+    color: red;
+}
+
+#logo_container img {
+    height: 45px;
+    width: 150px;
+}  
+
+button {
+    border: 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 32px;
+    width: 76px;
+}
+.content {
+    display: flex;
+    margin: auto;
+    color: white;
+    height: 300px;
+    width: 650px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
+    position: relative;
+    top: 70px;
+    z-index: 9;
+    line-height: 50px;
+    padding: 32px;
+}
+.content h1 {
+    font-size:2.8em ;
+    padding: 20px;
+}
+.btn {
+    height: 56px;
+    width: 206px;
+    background-color: red;
+    color: white;
+    font-size:large;
+    font-weight: 600;
+}
+.content input {
+    width: 340px;
+    padding: 18px;
+    background: none;
+    border: 2px solid gray;
+    font-size: medium;
+    z-index: 10;
+}
+main {
+    background-color: black;
+    color: white;
+}
+main div {
+    max-width: 80vw;
+    margin: auto;
+}
+main .pic_div {
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 11;
+    position: relative;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: black;
+    scrollbar-shadow-color: black;
+    scrollbar-track-color: black;
+    scroll-snap-type: black;
+    scrollbar-arrow-color: black;
+    max-height: 280px;
+}
+.pic_div li {
+    display: inline;
+}
+main nav {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+.box {
+    display:inline-block;
+    height:286px ;
+    width: 250px;
+    border-radius: 50px;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(45, 26, 97, 0.718) , rgba(21, 0, 21, 0.918));
+       
+}
+.heading {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+main nav h3 {
+    padding: 10px;
+    font-weight: 200;
+    font-size: larger;
+}
+main .ques {
+    height:90px;
+    max-width: 80vw;
+    background-color: rgba(128, 128, 128, 0.333);
+    padding: 20px;
+    margin: 10px 0px;
+    font-size: x-large;
+}
+main .ques:hover {
+    cursor: grabbing;
+    background-color: gray;
+}
+main #end {
+    margin-top: 60px;
+    text-align: center;
+}
+main #end_input{
+    max-width: 60vw;
+    text-align: center;
+    margin-bottom: 90px;
+}
+main #end_input input{
+    width: 550px;
+    padding: 18px;
+    background: none;
+    border: 2px solid gray;
+    font-size: medium;
+}
+
+footer{
+    background-color: black;
+    height: 50vh;
+    margin: 0 10vw;
+}
+footer a {
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+#fhead {
+    padding: 40px;
+    margin-bottom: 40px;
+}
+body {
+    background-color: black;
+    z-index: -4;
+}
+footer p {
+    margin-bottom: 40px;
+}
+
+#foot2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 40px;
+    justify-content: space-around;
+    font-size: small;
+}
+footer li {
+    margin-bottom: 20px;
+}
+footer button {
+    background-color: rgb(38, 37, 37);
+    width: 90px;
+    margin-top: 30px;
+}
+footer #foota {
+    color: white;
+    font-size: smaller;
+    padding-top: 50px;
+}
+footer #footb {
+    color: white;
+    font-size:smaller;
+    padding-top: 20px;
+}
+footer #footb a {
+    color: blue;
+}
